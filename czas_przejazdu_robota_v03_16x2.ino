@@ -17,9 +17,9 @@ void setup()                        // ustawienia początkowe dla programu
   lcd.init();                       // inicjalizacja wyświetlacza LCD 
   lcd.backlight();                  // wygaszenie wyświetlacza LCD
   lcd.setCursor(0,0);               // ustawienie kursora w pierwszej pozycji w pierwszym wierszu
-  lcd.print("Wyscig 2019");     // wypisanie komunikatu
+  lcd.print("Wyscig 2019");         // wypisanie komunikatu
   lcd.setCursor(0,1);               // ustawienie kursora w pierwszej pozycji w pierwszym wierszu
-  lcd.print("00:00:000");            // wypisanie komunikatu
+  lcd.print("00:00:000");           // wypisanie komunikatu
   pinMode(czujnik_start, INPUT);    // ustawienie pinów jako wejść
   pinMode(czujnik_meta, INPUT);     // ustawienie pinów jako wejść
 }
